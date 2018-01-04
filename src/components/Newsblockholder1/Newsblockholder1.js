@@ -1,21 +1,21 @@
 import React from "react";
 
-const Newsblockholder1 = () =>
+const Newsblockholder1 = (props) =>
 
 	<div className="col-sm-6 col-lg-3">
 		<div className="news-block-holder">
 			<div className="headline m-b-1">
-				<h3>College funds</h3>
+				<h3>{props.newsheadline}</h3>
 			</div>
 			<div className="this-block-inner">
 				<div className="this-block-image">
 					<div className="img-holder m-x-auto">
-						<a href="#"><img className="img-item mid-mid" src="assets/images/home-news-block1.jpg"/></a>
+						<a href="#"><img className="img-item mid-mid" src={props.newsheadlineimg} /></a>
 					</div>
 				</div>
 				<div className="this-block-blurb">
 					<div className="this-blurb-inner">
-						<span>4 common questions about saving for college</span>
+						<span>{props.newsheadlineblurb}</span>
 					</div>
 				</div>
 			</div>

@@ -5,15 +5,15 @@ import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Account from "./pages/Account";
-// import Application from "./pages/Application";
-// import Learningoverview from "./pages/Learningoverview";
-// import Learningstory from "./pages/Learningoverview/Learningstory";
+import Application from "./pages/Application";
+import Learningoverview from "./pages/LearningOverview";
+import LearningStory from "./pages/LearningStory";
 import Products from "./pages/Products";
+import Registration from "./pages/Registration";
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import Homeadvertsfilter from "./components/Homeadvertsfilter";
 import Footer from "./components/Footer";
-//import Signinmodal from "./components/Signinmodal";
 
 
 const App = () =>
@@ -25,6 +25,10 @@ const App = () =>
         <Route exact path="/home" component={Home} />
         <Route exact path="/account" component={Account} />
         <Route exact path="/products" component={Products} />
+        <Route exact path="/learningoverview" component={Learningoverview} />
+        <Route exact path="/learningstory" component={LearningStory} />
+        <Route exact path="/registration" component={Registration} />
+        <Route exact path="/application" component={Application} />
 
       <Footer />
       

@@ -34,9 +34,11 @@ const Navbar = () =>
 						</div>
 						<div id="navbar-upper-login" className="section-inline-block">
 							<div className="navbar-item" id="navbar-upper-button">
-								<button type="button" id="main" className="btn btn-sm navbar-link">
-										Log In &nbsp; <i className="fas fa-lock" aria-hidden="true"></i>						
-								</button>
+								<a>
+									<Link className="navbar-link" to="/registration">
+										Log In &nbsp; <i className="fas fa-lock" aria-hidden="true"></i> 
+									</Link>
+								</a>
 							</div>
 						</div>
 					</div>

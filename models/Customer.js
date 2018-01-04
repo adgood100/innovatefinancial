@@ -58,6 +58,12 @@ var CustomerSchema = new Schema({
     required: true
   },
 
+  // Customer Phone Number
+  phonenum: {
+    type: String,
+    required: true
+  },
+
   // Customer Username
   username: {
     type: String,

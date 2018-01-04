@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Banner = () => 
 
@@ -21,7 +22,9 @@ const Banner = () =>
 						<div className="div-spacer m-b-2"></div>
 						<p className="m-b-0">
 							<a href="#" className="btn btn-orange text-uppercase">
-								Learn More
+								<Link className="text-whited" to="/application">
+									Learn More
+								</Link>
 							</a>
 						</p>
 					</div>

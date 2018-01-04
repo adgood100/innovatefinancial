@@ -1,16 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import LearningBanner from "../components/LearningBanner";
 import StoryBlock from "../components/StoryBlock";
 import StorySideBar1 from "../components/StorySideBar1";
 import StorySideBar2 from "../components/StorySideBar2";
 
 
-
-
-
-
 //start with banner and navbar
 const LearningStory = () =>
+
 <div>
 <LearningBanner />
 <section className="sectioned section-grey">

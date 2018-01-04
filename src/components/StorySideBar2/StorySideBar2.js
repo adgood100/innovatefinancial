@@ -1,6 +1,6 @@
 import React from "react";
 
-const StorySideBar2 = () => {`
+const StorySideBar2 = () => 
   <div className="p-a-2 backgrounded-whited">
     <div className="headline m-b-1">
       <h4>More 'Your Life' Stories</h4>
@@ -9,7 +9,7 @@ const StorySideBar2 = () => {`
       <div className="learning-item">
         <div className="this-image">
           <div className="img-holder m-x-auto">
-            <a href=""><img className="img-item mid-mid" src="static/images/home-news-block3.jpg" /></a>
+            <a href=""><img className="img-item mid-mid" src="assets/images/home-news-block3.jpg" /></a>
           </div>
         </div>
         <div className="this-blurb">
@@ -21,7 +21,7 @@ const StorySideBar2 = () => {`
       <div className="learning-item">
         <div className="this-image">
           <div className="img-holder m-x-auto">
-            <a href=""><img className="img-item mid-mid" src="static/images/home-news-block4.jpg" /></a>
+            <a href=""><img className="img-item mid-mid" src="assets/images/home-news-block4.jpg" /></a>
           </div>
         </div>
         <div className="this-blurb">
@@ -33,7 +33,7 @@ const StorySideBar2 = () => {`
       <div className="learning-item">
         <div className="this-image">
           <div className="img-holder m-x-auto">
-            <a href=""><img className="img-item mid-mid" src="static/images/landing-page-corporate-image2.jpg" /></a>
+            <a href=""><img className="img-item mid-mid" src="assets/images/landing-page-corporate-image2.jpg" /></a>
           </div>
         </div>
         <div className="this-blurb">
@@ -45,7 +45,7 @@ const StorySideBar2 = () => {`
       <div className="learning-item">
         <div className="this-image">
           <div className="img-holder m-x-auto">
-            <a href=""><img className="img-item mid-mid" src="static/images/landing-page-corporate-image3.jpg" /></a>
+            <a href=""><img className="img-item mid-mid" src="assets/images/landing-page-corporate-image3.jpg" /></a>
           </div>
         </div>
         <div className="this-blurb">
@@ -57,7 +57,7 @@ const StorySideBar2 = () => {`
       <div className="learning-item">
         <div className="this-image">
           <div className="img-holder m-x-auto">
-            <a href=""><img className="img-item mid-mid" src="static/images/landing-page-exec-image2.jpg" /></a>
+            <a href=""><img className="img-item mid-mid" src="assets/images/landing-page-exec-image2.jpg" /></a>
           </div>
         </div>
         <div className="this-blurb">
@@ -69,7 +69,7 @@ const StorySideBar2 = () => {`
       <div className="learning-item">
         <div className="this-image">
           <div className="img-holder m-x-auto">
-            <a href=""><img className="img-item mid-mid" src="static/images/landing-page-exec-image3.jpg" /></a>
+            <a href=""><img className="img-item mid-mid" src="assets/images/landing-page-exec-image3.jpg" /></a>
           </div>
         </div>
         <div className="this-blurb">
@@ -81,7 +81,7 @@ const StorySideBar2 = () => {`
       <div className="learning-item">
         <div className="this-image">
           <div className="img-holder m-x-auto">
-            <a href=""><img className="img-item mid-mid" src="static/images/landing-page-student-image2.jpg" /></a>
+            <a href=""><img className="img-item mid-mid" src="assets/images/landing-page-student-image2.jpg" /></a>
           </div>
         </div>
         <div className="this-blurb">
@@ -92,6 +92,5 @@ const StorySideBar2 = () => {`
       </div>
     </div>
   </div>
-  `}
 
 export default StorySideBar2;

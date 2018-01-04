@@ -1,16 +1,16 @@
 import React from "react";
 
-const Homeadvertitem1 = () =>
+const Homeadvertitem1 = (props) =>
 
-	<div className="advert-item-holder advert-1">
+	<div className={props.advertimg}>
 		<div className="advert-item-inner">
 			<div className="advert-item-image"></div>
 			<div className="advert-item-blurb">
 				<h4 className="m-t-0 m-b-1">
-					Verify unusual activity
+					{props.advertheadline}
 				</h4>
 				<p className="m-b-0">
-					Alerts let you verify unusual purchases right from the App
+					{props.advertblurb}
 				</p>
 			</div>
 		</div>

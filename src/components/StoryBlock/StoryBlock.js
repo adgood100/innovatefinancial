@@ -1,8 +1,8 @@
 import React from "react";
 
-const StoryBlock = () =>{
-`<div>
-<div className="col-md-7 col-lg-8">
+const StoryBlock = () =>
+<div>
+
   <div className="p-a-2 backgrounded-whited">
     <div className="headline">
       <h2>9 Budget-friendly tips to freshen up your home in the new year</h2>
@@ -11,7 +11,7 @@ const StoryBlock = () =>{
     <div className="div-spacer p-b-1"></div>
 
     <div className="img-holder m-x-auto">
-      <img className="img-item" src="static/images/home-news-block2.jpg" />
+      <img className="img-item" src="assets/images/home-news-block2.jpg" />
     </div>
 
     <div className="div-spacer p-y-1"></div>
@@ -23,7 +23,7 @@ const StoryBlock = () =>{
 
       <h3 className="m-b-1 m-t-3">1. Get organized</h3>
 
-      <img className="pull-left m-r-1" src="http://placehold.it/160x232" />
+      <img className="pull-left m-r-1" style={{ width: 160, height: 150 }} src="assets/images/organizedroom.jpg" />
       <p>Cleanliness carries real psychological benefits. It helps you sleep better, reduces stress, and increases productivity. At the start of any redesign, think about storage options for clearing visual clutter. Simply gathering earrings or paper clips into a teacup can provide a greater sense of order.</p>
       <p>Magazines and books often crowd a well-used living room, so slip them inside a storage ottoman or bench. Hide a messy stack of files on a desk inside a bright lacquer box. In a children's bedroom, Higham puts toys in woven African baskets which can later be repurposed after the kids have grown up and leave the house.</p>
 
@@ -37,8 +37,8 @@ const StoryBlock = () =>{
 
       <h3 className="m-b-1 m-t-3">4. Incorporate houseplants</h3>
 
-      <img className="pull-right m-l-1" src="http://placehold.it/160x308" />
-      <p>"Plants are inexpensive and add life to any room," says Redmond. Easy to grow, palms and philodendron are classNameic choices. For a bit more character, however, try the sculptural fiddle leaf fig—a design world darling that can grow several feet tall.</p>
+      <img className="pull-right m-l-1" style={{ width: 160, height: 150 }} src="assets/images/fig-leaf-tree-fiddle-leaf-fig-tree.jpg" />
+      <p>"Plants are inexpensive and add life to any room," says Redmond. Easy to grow, palms and philodendron are classic choices. For a bit more character, however, try the sculptural fiddle leaf fig—a design world darling that can grow several feet tall.</p>
 
       <h3 className="m-b-1 m-t-3">5. Throw a rug on the kitchen floor</h3>
 
@@ -50,7 +50,7 @@ const StoryBlock = () =>{
 
       <h3 className="m-b-1 m-t-3">7. Add an accent wall</h3>
 
-      <img className="pull-left m-r-1" src="http://placehold.it/160x168" />
+      <img className="pull-left m-r-1" style={{ width: 160, height: 150 }} src="assets/images/brown-accent-wall-design.jpg" />
       <p>When you paint or wallpaper a portion of a room, it draws the eye and becomes a focal point of the space. "It's inexpensive to buy a gallon of paint but it's high impact," says Redmond. "You could even use chalkboard paint to create a family messaging center." She also recommends self-adhesive, removable wallpaper as an affordable way to add patterns. You might paste it above the oven as a backsplash or behind the shelves of a built-in bookcase.</p>
 
       <h3 className="m-b-1 m-t-3">8. Create a calming bedroom</h3>
@@ -66,9 +66,9 @@ const StoryBlock = () =>{
 
   </div>
   <div className="div-spacer p-a-2 hidden-xl-up"></div>
+
+
+
 </div>
 
-
-</div>`
-}
 export default StoryBlock;
