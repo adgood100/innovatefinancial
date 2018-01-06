@@ -50,14 +50,18 @@ var ApplicationSchema = new Schema({
   email: {
       type: String,
       required: true
-  }
+  },
   socialsecurity:{
     type: String,
     required: true
-  }
+  },
   update:{
     type: String,
     default: moment().format('MMMM Do YYYY, h:mm A')
+  },
+  product: {
+    type: String,
+    required: true
   },
   customerid: [{
     type: Schema.Types.ObjectId,
