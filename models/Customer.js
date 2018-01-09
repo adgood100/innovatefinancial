@@ -15,9 +15,20 @@ var CustomerSchema = new Schema({
     type: String,
     required: true
   },
-  
+  // Salutation
+  salutation: {
+    type: String,
+    required: true
+  },
+    
   // First Name
   firstname: {
+    type: String,
+    required: true
+  },
+
+  // Middle Name
+  middlename: {
     type: String,
     required: true
   },

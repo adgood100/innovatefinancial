@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Registrationform = () =>
 
@@ -55,14 +56,7 @@ const Registrationform = () =>
                                 <input type="text" class="form-control" id="addressLine1" aria-describedby="addressLine1" placeholder="No P.O Boxes please" tabindex="4" />
                               </div>
                             </div>
-                            
-                            <div>
-                              <div class="form-group">
-                                <label for="addressLine2">Residential Address Line 2 </label>
-                                <input type="text" class="form-control" id="addressLine2" aria-describedby="addressLine2" placeholder="Apartment #, Unit #, etc." tabindex="5" />
-                              </div>
-                            </div>
-                            
+                                                        
                             <div>
                               <div class="form-group">
                                 <label for="addressCity">City <span>*</span></label>
@@ -149,9 +143,11 @@ const Registrationform = () =>
                                 </div>
                               </div>
                               <div>
-                              <button>
-                              Submit
-                              </button>
+                              <a href="#" className="btn btn-orange text-uppercase">
+                                <Link className="text-whited" to="/account">
+                                  Submit
+                                </Link>
+                              </a>
                               </div>
                             </div>
                           </div>

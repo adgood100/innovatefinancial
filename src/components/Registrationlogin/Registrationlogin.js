@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 const Registrationlogin = () =>
 <form>
   <section class="sectioned section-grey">
@@ -39,9 +41,11 @@ const Registrationlogin = () =>
                                   <input type="checkbox" value="remember-me" />Remember me
                                 </label>
                               </div>
-                              <button>
-                              Submit
-                              </button>
+                              <a href="#" className="btn btn-orange text-uppercase">
+                                <Link className="text-whited" to="/account">
+                                  Submit
+                                </Link>
+                              </a>                              
                             </div>
                           </div>
                         </div>
