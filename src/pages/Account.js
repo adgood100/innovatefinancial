@@ -15,7 +15,7 @@ const Account = () =>
 		<div className="container">
 			<div id="accounts-page-overall">
 				<h3 className="m-t-0 m-b-1">Hello Ms Good</h3>
-				<span className="last-logged-in">You last logged in on Wed 15 Jul at 08:43am</span>
+				<span className="last-logged-in">You last logged in on Tue 9 Jan at 08:43am</span>
 				<div className="div-spacer m-y-1"></div>
 				<div className="row">
 					<div className="col-md-8">

@@ -9,9 +9,6 @@ import ProductDisplay from "../components/ProductDisplay";
 import Footer from "../components/Footer";
 
 
-
-
-
 //start with banner and navbar
 const Registration = () =>
 

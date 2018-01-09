@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import ReactModal from "react-modal";
 import ReactDOM from "react-dom";
 
+
 const Navbar = (props) =>
 
 	<nav id="navbar-holder">

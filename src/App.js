@@ -15,11 +15,9 @@ import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import Homeadvertsfilter from "./components/Homeadvertsfilter";
 import Footer from "./components/Footer";
-import Moment from "moment";
-import mongoose from "mongoose";
-
 
 const App = () => 
+
 
   <Router>
     <div>
@@ -37,7 +35,7 @@ const App = () =>
         <Route exact path="/application" component={Application} />
 
       <Footer />
-
+      
 
     </div>
 

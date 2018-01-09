@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Producthero = (props) =>
 
 	<div id="banner-holder">

@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Productcategory1 = (props) =>
 
 	<div className="category-item" id="category-popular-cards">
@@ -15,4 +16,4 @@ const Productcategory1 = (props) =>
 		</a>
 	</div>;
 
-export default Productcategory1;	
+export default Productcategory1;
