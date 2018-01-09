@@ -17,8 +17,7 @@ import Homeadvertsfilter from "./components/Homeadvertsfilter";
 import Footer from "./components/Footer";
 import Moment from "moment";
 import mongoose from "mongoose";
-//import Signinmodal from "./components/Signinmodal";
-=======
+
 
 const App = () => 
 
