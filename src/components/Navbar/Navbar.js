@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import ReactModal from "react-modal";
 import ReactDOM from "react-dom";
 
-const Navbar = () =>
+const Navbar = (props) =>
 
 	<nav id="navbar-holder">
 		<div id="navbar-inner">
@@ -34,9 +34,11 @@ const Navbar = () =>
 						</div>
 						<div id="navbar-upper-login" className="section-inline-block">
 							<div className="navbar-item" id="navbar-upper-button">
-								<button type="button" id="main" className="btn btn-sm navbar-link">
-										Log In &nbsp; <i className="fas fa-lock" aria-hidden="true"></i>						
-								</button>
+								<a>
+									<Link className="navbar-link" to="/registration">
+										Log In &nbsp; <i className="fas fa-lock" aria-hidden="true"></i> 
+									</Link>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -59,21 +61,21 @@ const Navbar = () =>
 						<div id="navbar-lower-links" className="section-inline-block">
 							<div className="navbar-item" id="navbar-lower-banking">
 								<a>
-									<Link className="navbar-link" to="/products">
+									<Link className="navbar-link" to="/banking">
 									Banking
 									</Link>
 								</a>
 							</div>
 							<div className="navbar-item" id="navbar-lower-credit-card">
 								<a>
-									<Link className="navbar-link" to="/products">
+									<Link className="navbar-link" to="/creditcards">
 									Credit Card
 									</Link>
 								</a>
 							</div>
 							<div className="navbar-item" id="navbar-lower-loans">
 								<a>
-									<Link className="navbar-link" to="/products">
+									<Link className="navbar-link" to="/loans">
 									Loans
 									</Link>
 								</a>

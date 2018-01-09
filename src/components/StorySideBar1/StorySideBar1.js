@@ -1,6 +1,6 @@
 import React from "react";
 
-const StorySideBar1 = () =>{`
+const StorySideBar1 = () =>
   <div className="p-a-2 backgrounded-whited">
     <div className="headline m-b-1">
       <h4>Most popular stories</h4>
@@ -9,7 +9,7 @@ const StorySideBar1 = () =>{`
       <div className="learning-item">
         <div className="this-image">
           <div className="img-holder m-x-auto">
-            <a href=""><img className="img-item mid-mid" src="static/images/home-news-block1.jpg" /></a>
+            <a href=""><img className="img-item mid-mid" src="assets/images/home-news-block1.jpg" /></a>
           </div>
         </div>
         <div className="this-blurb">
@@ -21,7 +21,7 @@ const StorySideBar1 = () =>{`
       <div className="learning-item">
         <div className="this-image">
           <div className="img-holder m-x-auto">
-            <a href=""><img className="img-item mid-mid" src="static/images/home-news-block2.jpg" /></a>
+            <a href=""><img className="img-item mid-mid" src="assets/images/home-news-block2.jpg" /></a>
           </div>
         </div>
         <div className="this-blurb">
@@ -32,10 +32,5 @@ const StorySideBar1 = () =>{`
       </div>
     </div>
   </div>
-  `}
-
-
-
-
-
+  
 export default StorySideBar1;

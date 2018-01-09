@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const LearningBlock = () =>
+
+const LearningBlocks = () =>
 
 
 <div id="learning-overview-page-overall">
@@ -9,19 +11,25 @@ const LearningBlock = () =>
       <div className="learning-item">
         <div className="this-image">
           <div className="img-holder m-x-auto">
-            <a href=""><img className="img-item mid-mid" src="static/images/home-news-block1.jpg" /></a>
+            <a href=""><img className="img-item mid-mid" src="assets/images/home-news-block1.jpg" /></a>
           </div>
         </div>
         <div className="this-blurb">
           <div className="this-inner">
-            <a href="">4 ways to overcome your long commute</a>
+            <a> 
+
+              <Link className="this-inner" to="/learningstory">
+                4 ways to overcome your long commute
+              </Link>
+
+            </a>
           </div>
         </div>
       </div>
       <div className="learning-item">
         <div className="this-image">
           <div className="img-holder m-x-auto">
-            <a href=""><img className="img-item mid-mid" src="static/images/home-news-block2.jpg" /></a>
+            <a href=""><img className="img-item mid-mid" src="assets/images/home-news-block2.jpg" /></a>
           </div>
         </div>
         <div className="this-blurb">
@@ -33,7 +41,7 @@ const LearningBlock = () =>
       <div className="learning-item">
         <div className="this-image">
           <div className="img-holder m-x-auto">
-            <a href=""><img className="img-item mid-mid" src="static/images/home-news-block3.jpg" /></a>
+            <a href=""><img className="img-item mid-mid" src="assets/images/home-news-block3.jpg" /></a>
           </div>
         </div>
         <div className="this-blurb">
@@ -45,7 +53,7 @@ const LearningBlock = () =>
       <div className="learning-item">
         <div className="this-image">
           <div className="img-holder m-x-auto">
-            <a href=""><img className="img-item mid-mid" src="static/images/home-news-block4.jpg" /></a>
+            <a href=""><img className="img-item mid-mid" src="assets/images/home-news-block4.jpg" /></a>
           </div>
         </div>
         <div className="this-blurb">
@@ -57,7 +65,7 @@ const LearningBlock = () =>
       <div className="learning-item">
         <div className="this-image">
           <div className="img-holder m-x-auto">
-            <a href=""><img className="img-item mid-mid" src="static/images/landing-page-corporate-image2.jpg" /></a>
+            <a href=""><img className="img-item mid-mid" src="assets/images/landing-page-corporate-image2.jpg" /></a>
           </div>
         </div>
         <div className="this-blurb">
@@ -69,7 +77,7 @@ const LearningBlock = () =>
       <div className="learning-item">
         <div className="this-image">
           <div className="img-holder m-x-auto">
-            <a href=""><img className="img-item mid-mid" src="static/images/landing-page-corporate-image3.jpg" /></a>
+            <a href=""><img className="img-item mid-mid" src="assets/images/landing-page-corporate-image3.jpg" /></a>
           </div>
         </div>
         <div className="this-blurb">
@@ -81,7 +89,7 @@ const LearningBlock = () =>
       <div className="learning-item">
         <div className="this-image">
           <div className="img-holder m-x-auto">
-            <a href=""><img className="img-item mid-mid" src="static/images/landing-page-exec-image2.jpg" /></a>
+            <a href=""><img className="img-item mid-mid" src="assets/images/landing-page-exec-image2.jpg" /></a>
           </div>
         </div>
         <div className="this-blurb">
@@ -93,7 +101,7 @@ const LearningBlock = () =>
       <div className="learning-item">
         <div className="this-image">
           <div className="img-holder m-x-auto">
-            <a href=""><img className="img-item mid-mid" src="static/images/landing-page-exec-image3.jpg" /></a>
+            <a href=""><img className="img-item mid-mid" src="assets/images/landing-page-exec-image3.jpg" /></a>
           </div>
         </div>
         <div className="this-blurb">
@@ -105,7 +113,7 @@ const LearningBlock = () =>
       <div className="learning-item">
         <div className="this-image">
           <div className="img-holder m-x-auto">
-            <a href=""><img className="img-item mid-mid" src="static/images/landing-page-student-image2.jpg" /></a>
+            <a href=""><img className="img-item mid-mid" src="assets/images/landing-page-student-image2.jpg" /></a>
           </div>
         </div>
         <div className="this-blurb">
@@ -117,7 +125,7 @@ const LearningBlock = () =>
       <div className="learning-item">
         <div className="this-image">
           <div className="img-holder m-x-auto">
-            <a href=""><img className="img-item mid-mid" src="static/images/landing-page-student-image3.jpg" /></a>
+            <a href=""><img className="img-item mid-mid" src="assets/images/landing-page-student-image3.jpg" /></a>
           </div>
         </div>
         <div className="this-blurb">
@@ -129,7 +137,7 @@ const LearningBlock = () =>
       <div className="learning-item">
         <div className="this-image">
           <div className="img-holder m-x-auto">
-            <a href=""><img className="img-item mid-mid" src="static/images/home-news-block2.jpg" /></a>
+            <a href=""><img className="img-item mid-mid" src="assets/images/home-news-block2.jpg" /></a>
           </div>
         </div>
         <div className="this-blurb">
@@ -141,7 +149,7 @@ const LearningBlock = () =>
       <div className="learning-item">
         <div className="this-image">
           <div className="img-holder m-x-auto">
-            <a href=""><img className="img-item mid-mid" src="static/images/home-news-block3.jpg" /></a>
+            <a href=""><img className="img-item mid-mid" src="assets/images/home-news-block3.jpg" /></a>
           </div>
         </div>
         <div className="this-blurb">
@@ -156,4 +164,4 @@ const LearningBlock = () =>
 
 
 
-export default LearningBlock;
+export default LearningBlocks;

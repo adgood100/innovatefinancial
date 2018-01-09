@@ -1,41 +1,41 @@
 import React from "react";
 
-const Productitem2 = () =>
+const Productitem2 = (props) =>
 
 	<div className="this-inner">
 		<div className="product-item-image">
 			<div className="img-holder m-x-auto">
-				<img className="img-item" src="assets/images/credit-card-travel-rewards-slanted.png"/>
+				<img className="img-item" src={props.productitemimg}/>
 			</div>
 		</div>
 		<div className="product-item-blurb">
 			<div className="product-item-title m-b-1">
-				<h3 className="m-y-0">Innovate Travel Rewards</h3>
+				<h3 className="m-y-0">{props.productitemtitle}</h3>
 			</div>
 			<div className="product-item-details">
 				<div className="this-inner">
 					<div className="details-section section-large">
 						<div className="headline">
-							<h4>20,000 online bonus points offer</h4>
+							<h4>{props.product2headline1}</h4>
 						</div>
 						<p className="m-b-0">
-							Earn unlimited 1.5 points for every $1 you spend on all purchases everywhere, every time and no expiration on points.
+							{props.product2headlinefeature1}
 						</p>
 					</div>
 					<div className="details-section">
 						<div className="headline">
-							<h5 className="text-uppercase"><span className="hidden-md-down hidden-xl-up">&nbsp;</span><br className="hidden-md-down hidden-xl-up"/>At a Glance</h5>
+							<h5 className="text-uppercase"><span className="hidden-md-down hidden-xl-up">&nbsp;</span><br className="hidden-md-down hidden-xl-up"/>{props.product2headline2}</h5>
 						</div>
 						<p className="m-b-0">
-							Ditch the restrictions of typical airline rewards cards. Any airline, any hotel, anytime. No blackout dates.
+							{props.product2headlinefeature2}
 						</p>
 					</div>
 					<div className="details-section">
 						<div className="headline">
-							<h5 className="text-uppercase"><span className="hidden-md-down hidden-xl-up">&nbsp;</span><br className="hidden-md-down hidden-xl-up"/>APR</h5>
+							<h5 className="text-uppercase"><span className="hidden-md-down hidden-xl-up">&nbsp;</span><br className="hidden-md-down hidden-xl-up"/>{props.product2headline3}</h5>
 						</div>
 						<p className="m-b-0">
-							0% intro APR for 12 months from account opening on purchases. After that, 15.49% to 23.49% variable APR.
+							{props.product2headlinefeature3}
 						</p>
 					</div>
 				</div>

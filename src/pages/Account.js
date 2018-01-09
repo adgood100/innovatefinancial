@@ -14,7 +14,7 @@ const Account = () =>
 	<section className="sectioned section-grey">
 		<div className="container">
 			<div id="accounts-page-overall">
-				<h3 className="m-t-0 m-b-1">Hello Miss Matthews</h3>
+				<h3 className="m-t-0 m-b-1">Hello Ms Good</h3>
 				<span className="last-logged-in">You last logged in on Wed 15 Jul at 08:43am</span>
 				<div className="div-spacer m-y-1"></div>
 				<div className="row">

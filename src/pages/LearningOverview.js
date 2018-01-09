@@ -1,7 +1,7 @@
 import React from "react";
 import LearningBanner from "../components/LearningBanner";
 import LifeFilter from "../components/LifeFilter";
-import LearningBlock from "../components/LearningBlock";
+import LearningBlocks from "../components/LearningBlocks";
 import Footer from "../components/Footer";
 
 
@@ -23,7 +23,7 @@ const LearningOverview = () =>
         <div className="row">
           <div className="col-md-12 col-xl-16">
 
-            <LearningBlock />
+            <LearningBlocks />
 
           </div>
         </div>

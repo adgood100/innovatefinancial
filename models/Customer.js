@@ -15,9 +15,20 @@ var CustomerSchema = new Schema({
     type: String,
     required: true
   },
-  
+  // Salutation
+  salutation: {
+    type: String,
+    required: true
+  },
+    
   // First Name
   firstname: {
+    type: String,
+    required: true
+  },
+
+  // Middle Name
+  middlename: {
     type: String,
     required: true
   },
@@ -54,6 +65,12 @@ var CustomerSchema = new Schema({
 
   // Customer Zip Code
   zipcode: {
+    type: String,
+    required: true
+  },
+
+  // Customer Phone Number
+  phonenum: {
     type: String,
     required: true
   },
